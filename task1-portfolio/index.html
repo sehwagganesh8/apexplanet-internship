@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balusu Sehwag Ganesh - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-briefcase"></i> SehwagGanesh
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Full Stack Web Developer</h1>
+      <h2>Balusu Sehwag Ganesh</h2>
+      <p>Building robust, scalable, and user-friendly web applications</p>
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+    </div>
+    <div class="hero-image">
+      <i class="fas fa-user-circle" style="font-size: 80px; color: #0f766e;"></i>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="about">
+      <div class="container">
+        <h2><i class="fas fa-user-graduate"></i> About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I'm a Full Stack Web Development student at ApexPlanet Software Pvt. Ltd., currently internship training from 20 May 2026 to 19 July 2026. I specialize in building complete web applications from database to frontend interface.</p>
+            <p>My tech stack includes PHP, MySQL, HTML5, CSS3, JavaScript, Bootstrap 5, and AJAX. I'm passionate about creating responsive, secure, and performant web applications.</p>
+          </div>
+          <div class="about-skills">
+            <h3>Skills</h3>
+            <div class="skills-grid">
+              <div class="skill-box">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-box">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-box">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-box">
+                <i class="fab fa-php"></i>
+                <span>PHP</span>
+              </div>
+              <div class="skill-box">
+                <i class="mysql"></i>
+                <span>MySQL</span>
+              </div>
+              <div class="skill-box">
+                <i class="fab fa-bootstrap"></i>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2><i class="fas fa-folder"></i> Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="project-info">
+              <h3>User Management System</h3>
+              <p>CRUD operations with authentication and role-based access control</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="project-info">
+              <h3>Responsive Login UI</h3>
+              <p>Bootstrap 5 login and registration with animations</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="project-info">
+              <h3>E-Learning Portal</h3>
+              <p>Full-stack application with OTP verification and analytics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2><i class="fas fa-envelope"></i> Contact</h2>
+        <div class="contact-form">
+          <form action="contact.php" method="post">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Balusu Sehwag Ganesh. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-medium-m"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
