@@ -14,6 +14,16 @@ internship program (20 May 2026 – 19 July 2026):
 | 4 | `task4-bookstore/` | Real-world full-stack app with admin panel |
 | 5 | `task5-elearning/` | Capstone e-learning portal with deployment |
 
+## Live Links
+
+| Task | Live URL |
+|------|----------|
+| 1 | https://apexplanet-internship-task1-portfol.vercel.app/ |
+| 2 | https://apexplanet-internship-task2-login-u.vercel.app/ |
+| 3 | https://apexintern.gamer.free/task3-user-management/ |
+| 4 | https://apexintern.gamer.free/task4-bookstore/ |
+| 5 | https://apexintern.gamer.free/task5-elearning/ |
+
 ## Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5, AJAX, Chart.js
